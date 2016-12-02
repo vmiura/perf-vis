@@ -4,12 +4,13 @@ View demo at http://vmiura.github.io/perf-vis/demo.html
 
 [![Example](http://vmiura.github.io/perf-vis/demo-screenshot.png)](http://vmiura.github.io/perf-vis/demo-screenshot.png)
 
-perf-vis is compatible with stacks collected with: https://github.com/brendangregg/FlameGraph/
 
 The current version is configured to color Chromium code.
 
 1. Capture & fold stacks using FlameGraph tools
 ===============================================
+
+perf-vis is compatible with stacks collected with FlameGraph tools.  Get them at https://github.com/brendangregg/FlameGraph/
 
 Usage example:
 
@@ -62,4 +63,4 @@ Clicking a method with multiple call sites produces a merged view of the method 
 
 ### Linkable URLs.
 
-Send colleagues deep links to your profile's stack view. Example: <http://vmiura.github.io/perf-vis/demo.html#{"stack":[0],"id":1141,"ignore":[],"hide":[],"merged":false}>
+Send colleagues deep links to your profile's stack view. [Example](http://vmiura.github.io/perf-vis/demo.html#{"stack":[0],"id":1141,"ignore":[],"hide":[],"merged":false})
