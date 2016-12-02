@@ -41,6 +41,10 @@ def Process(options, args):
     return ret
 
   def getComponent(name):
+    # Split dtrace names
+    if name.startswith("Chromium Framework`"):
+      name = name.split("`", 1)[1]
+
     if name.startswith('blink::'):
       return 'blink'
     elif name.startswith('cc::'):
